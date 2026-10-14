@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #cccccc;
+    text-align: center;
+}
+
+#message {
+    font-size: 18px;
+    padding: 15px;
+    background-color: #eeeeee;
+}
+
+#myImage {
+    max-width: 100%;
+    height: auto;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #183b66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #285a91;
+}
+
+#datetime {
+    font-weight: bold;
+}
