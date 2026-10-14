@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  padding: 30px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #ccc;
+  padding: 14px 10px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #222;
+}
+
+.timetable thead th {
+  background: #0a2a4a;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.timetable .day {
+  background: #dbe6f5;
+  font-weight: bold;
+  color: #0a2a4a;
+}
+
+.timetable .merged {
+  background: #e3f0e6;
+  font-weight: 600;
+}
+
+.timetable .recess {
+  background: #faeec9;
+  padding: 0;
+}
+
+.timetable .recess span {
+  display: inline-block;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #333;
+}
+
+@media (max-width: 800px) {
+  .timetable th,
+  .timetable td {
+    font-size: 0.65rem;
+    padding: 8px 4px;
+  }
+}
